@@ -1,0 +1,180 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+header{
+    display:flex;
+    justify-content:center;
+    height: 120px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width:990px ;
+    height:100px;
+    background-color: white;
+}
+
+.logo {
+    
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav .active a,
+nav a:hover{
+    background-color: black;
+    color: white;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(imagem/1428707150-stevie-1983.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.containercolumn {
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.banner_headline h1{
+    color: white;
+    font-size: 70px;
+    text-shadow: 2px 2px 0px black;
+    margin:0;
+    padding:0;
+    width: 900px;
+}
+
+.banner_headline h2{
+    color: white;
+    font-size: 19px;
+    text-shadow: 2px 2px 0px black;
+    margin:0;
+    padding:0;
+    width: 300px;
+    margin-top: 30px;
+}
+
+.banner_headline h3{
+    color: white;
+    font-size: 10px;
+    text-shadow: 2px 2px 0px black;
+    margin:0;
+    padding:0;
+}
+
+.container_prof{
+    display: flex;
+    justify-content: center;
+    background-image: url(imagem/images.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 900px;
+}
+
+.container_hist{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+
+}
+.history h1{
+    flex: 1;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.history h2{
+    flex: 1;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    text-align: justify;
+    justify-content: center;
+    font-size: 15 px;
+}
+.container_Timeline{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.container_Timeline h1{
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 500;
+    text-align: center;
+
+}
+.container_Timeline .ul{
+    font-size: 15px;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 500;
+    text-align: justify;
+    
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+   
+}
+
+.icons {
+    padding: 15px;
+    display: block;
+    display: flex;
+    align-items: center;
+}
